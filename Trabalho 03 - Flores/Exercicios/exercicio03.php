@@ -13,4 +13,10 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que declare uma variavel inteira, atribua a ela o valor 10 e exiba o seu valor acrescido em uma unidade, sem alterar o valor armazenado na variavel original. Saida esperada: 'Resultado = 11'.
 *******************************************************************************/
+$x = 10;
 
+$resultado = $x + 1;
+
+echo "Resultado = $resultado";
+
+?> 
