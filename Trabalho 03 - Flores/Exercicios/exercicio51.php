@@ -23,33 +23,28 @@ $n2 = (float) fgets(STDIN);
 echo"Digite a terceira nota: ";
 $n3 = (float) fgets(STDIN);
 
-$maior;
-$maior02;
+$maior = 0;
+$maior02 = 0;
 
-if($n1 > $n2 && $n1 > $n3){
-
+if ($n1 >= $n2 && $n1 >= $n3) {
     $maior = $n1;
-    if($n2 > $n3){
+    if ($n2 >= $n3) {
         $maior02 = $n2;
     } else {
         $maior02 = $n3;
     }
-} else if($n2 > $n1 && $n2 > $n3){
-
+} else if ($n2 >= $n1 && $n2 >= $n3) {
     $maior = $n2;
-    if($n1 > $n3){
+    if ($n1 >= $n3) {
         $maior02 = $n1;
-    }
-    else{
+    } else {
         $maior02 = $n3;
     }
-} else{
-
+} else {
     $maior = $n3;
-    if($n1 > $n2){
+    if ($n1 >= $n2) {
         $maior02 = $n1;
-    }
-    else{
+    } else {
         $maior02 = $n2;
     }
 }

@@ -11,6 +11,21 @@ Componentes:
               260081732 - Alan Cristian dos Santos Costa
               260103602 - Victor Asaf Antunes dos Santos
 Data: 19 de Setembro de 2026
-Descritivo: Segundo uma tabela medica, calcule o peso ideal baseado na altura e sexo ('M' ou 'F').
+Descritivo: Digita a altura, digita o sexo: M ou F, e depois calcula de acordo com o sexo
 *******************************************************************************/
 
+$altura = (float) readline("Digite a sua altura: ");
+
+$sexo = readline("Digite o seu sexo(M / F): ");
+
+$ideal = 0;
+
+if($sexo == 'M' || $sexo == 'm'){
+    $ideal = (72.2 * $altura) - 58;
+    echo"Seu peso ideal seria: " . number_format($ideal, 2) ." ";
+} else if($sexo == 'F' || $sexo == 'f'){
+    $ideal = (62.1 * $altura) - 44.7;
+    echo"Seu peso ideal seria: " . number_format($ideal, 2) ." ";
+} else{
+    echo "Opção de sexo inválida.";
+}
