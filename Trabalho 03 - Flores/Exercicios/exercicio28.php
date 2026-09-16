@@ -14,7 +14,7 @@ Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia um numero real e, se ele for maior do que 20, exiba a metade deste numero.
 *******************************************************************************/
 //Leitura do n° real
-$numRea = readline("Digite aqui um número qualquer: ");
+$numRea = (float) readline("Digite aqui um número qualquer: ");
 
 //Estrutura de condição para saber se o n° é maior ou menor que 20 e calcular sua metade
 if ($numRea > 20){
