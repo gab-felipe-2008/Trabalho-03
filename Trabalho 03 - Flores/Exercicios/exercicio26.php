@@ -13,8 +13,8 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia duas variaveis inteiras (A e B) e efetue a troca de conteudo entre elas de forma que A passe a valer B, e B passe a valer A. Exiba os valores antes e depois da troca.
 *******************************************************************************/
-$n1 = readline("Digite o 1° número INTEIRO: "); //Usuário informa o 1° número.
-$n2 = readline("Digite o 2° número INTEIRO: "); //Usuário informa o 2° número.
+$n1 = (int) readline("Digite o 1° número INTEIRO: "); //Usuário informa o 1° número.
+$n2 = (int) readline("Digite o 2° número INTEIRO: "); //Usuário informa o 2° número.
 
 echo "O valor do primeiro número digitado é ", $n1," e o valor do segundo númerox digitado é ",$n2,"." . PHP_EOL;  // Programa mostra ao usuário os valores de cada número que ele digitou.
 
