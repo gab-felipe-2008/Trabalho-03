@@ -14,7 +14,7 @@ Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia um numero real e informe se ele é positivo, negativo ou nulo.
 *******************************************************************************/
   //Leitura do n° real
-    $numRea = readline("Digite um número qualquer: ");
+    $numRea = (float) readline("Digite um número qualquer: ");
 
     //Estrutura de condição para saber se o número é positivo, negativo ou nulo.
     if ($numRea > 0){ // número positivo
@@ -24,5 +24,7 @@ Descritivo: Escreva um programa que leia um numero real e informe se ele é posi
     }else if ($num == 0){ //número nulo
         echo "O número ", $numRea, " é nulo.";
     }
+
+  //PROGRAMA LÊ UM NÚMERO E FALA SE É POSITIVO, NEGATIVO OU NULO.      
 ?>
 
