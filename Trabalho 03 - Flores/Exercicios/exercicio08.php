@@ -13,4 +13,12 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia um numero inteiro e exiba na tela o seu antecessor e o seu sucessor.
 *******************************************************************************/
+$numero = (int) readline("Digite um número inteiro: ");
 
+$antecessor = $numero - 1;
+$sucessor = $numero + 1;
+
+echo "Antecessor = $antecessor\n";
+echo "Sucessor = $sucessor";
+
+?>
