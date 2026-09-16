@@ -24,4 +24,6 @@ Descritivo: Escreva um programa que leia um numero real e, se for positivo, exib
         $vlrAbs = $numRea * -1; //cálculo do valor absoluto
         echo "O valor absoluto de ", $numRea, " é ", $vlrAbs;
     }
+
+//PROGRAMA IDENTIFICA SE O NÚMERO E POSITIVO OU NEGATIVO. CASO FOR POSITIVO VAI SER EXIBIDO O INVERSO DESSE NÚMERO E CASO FOR POSTIVO VAI SER EXIBIDO SEU VALOR ABSOLUTO.
 ?>
