@@ -13,4 +13,22 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia dois numeros reais e os exiba primeiro em ordem crescente e depois em ordem decrescente.
 *******************************************************************************/
+    //Lê 2 números reais
+    $n1 = readline("Digite um número: ");
+    $n2 = readline("Digite outro número: ");
 
+    //Exibir os números em ordem crescente e decrescente.
+    //Utilizado a estrutura de condição encadeada.
+    //Utilizei o PHP_EOL para dar quebra de linha.
+    if ($n1 > $n2){ //CONDIÇÃO QUANDO N1 FOR MAIOR QUE N2
+        echo "Você digitou os números: ", $n1, " e ", $n2, ".",PHP_EOL; 
+        echo "ORDEM CRESCENTE: ", $n2, " -> ", $n1, ".",PHP_EOL;
+        echo "ORDEM DECRESCENTE: ", $n1, " -> ", $n2, ".",PHP_EOL;
+    }else if ($n2 > $n1){ //CONDIÇÃO QUANDO N2 FOR MAIOR QUE N1
+        echo "Você digitou os números: ", $n1, " e ", $n2, ".",PHP_EOL; 
+        echo "ORDEM CRESCENTE: ", $n1, " -> ", $n2, ".",PHP_EOL;
+        echo "ORDEM DECRESCENTE: ", $n2, " -> ", $n1, ".",PHP_EOL;
+    }else if($n1 = $n2){ //CONDIÇÃO QUANDO N1 FOR IGUAL A N2 E VICE-VERSA.
+        echo "Você digitou dois números iguais, sendo ele: ", $n1;
+    }
+?>
