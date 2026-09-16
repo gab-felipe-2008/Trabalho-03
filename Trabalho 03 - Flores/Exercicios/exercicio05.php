@@ -13,4 +13,8 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que obtenha o nome do usuario via teclado e exiba a mensagem de boas-vindas: 'Ola [nome digitado]!'.
 *******************************************************************************/
+$nome = readline("Digite seu nome: ");
 
+echo "Olá $nome!";
+
+?>
