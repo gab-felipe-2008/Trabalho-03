@@ -14,7 +14,7 @@ Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia um numero inteiro e exiba se ele é divisivel por 3 (multiplo de 3).
 *******************************************************************************/
  //Lê o n° inteiro
-    $numInt = readline("Digite um número inteiro: ");
+    $numInt = (int) readline("Digite um número inteiro: ");
     
     //verificar se o n° é múltiplo de 3
     if ($numInt % 3 === 0){
@@ -22,5 +22,6 @@ Descritivo: Escreva um programa que leia um numero inteiro e exiba se ele é div
     }else{
         echo "O número ", $numInt, " não é divisível por 3.";
     }
+//CÓDIGO VERIFICA SE UM N° É MULTIPLO DE TRÊS.
 ?>
 
