@@ -13,4 +13,6 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que declare uma variavel inteira, atribua a ela o valor 10 e exiba o seu valor na tela com a mensagem formatada: 'Valor de x = [valor]'.
 *******************************************************************************/
-
+$x = 10;
+echo "Valor de x = $x";
+?>
