@@ -18,4 +18,5 @@ $temCel = 5/9 * ($temFah - 32) ; // Fórmula para conversão em graus Celsius
 $temCel = round($temCel,2); // Deixar o resultado da temperatura °C com apenas 2 casas decimais
 echo "A temperatura em Fahrenheit convertida para graus Celsius é: ", $temCel,"°C";
 
+//CÓDIGO CONVERTE DE FAHRENHEIT PARA GRAUS CELSIUS.
 ?>
