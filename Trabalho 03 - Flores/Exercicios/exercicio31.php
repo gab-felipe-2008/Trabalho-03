@@ -14,7 +14,7 @@ Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia um numero inteiro e exiba se ele é PAR ou IMPAR.
 *******************************************************************************/
     //Leitura do n° inteiro
-    $numInt = readline ("Escreva um número inteiro: ");
+    $numInt = (int) readline ("Escreva um número inteiro: ");
 
     //Estrutura de condição para ver se tal n° é par ou ímpar
     if ($numInt % 2 === 0){ 
@@ -24,4 +24,5 @@ Descritivo: Escreva um programa que leia um numero inteiro e exiba se ele é PAR
         echo "O número ",$numInt, " é impar.";
     }
 
+//PROGRAM LÊ UM N° INTEIRO E EXIBE SE ELE É PAR OU ÍMPAR.
 ?>
