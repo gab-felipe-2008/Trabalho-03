@@ -13,4 +13,8 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que calcule e exiba a media aritmetica entre os numeros 8, 9 e 7.
 *******************************************************************************/
+$media = (8 + 9 + 7) / 3;
 
+echo "Média = $media";
+
+?>
