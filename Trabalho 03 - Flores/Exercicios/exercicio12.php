@@ -13,4 +13,10 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia um numero real e exiba a terca parte deste numero.
 *******************************************************************************/
+$numero = (float) readline("Digite um número real: ");
 
+$resultado = $numero / 3;
+
+echo "Terça parte = $resultado";
+
+?>
