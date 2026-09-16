@@ -14,8 +14,8 @@ Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia dois numeros reais e os exiba primeiro em ordem crescente e depois em ordem decrescente.
 *******************************************************************************/
     //Lê 2 números reais
-    $n1 = readline("Digite um número: ");
-    $n2 = readline("Digite outro número: ");
+    $n1 = (float) readline("Digite um número: ");
+    $n2 = (float) readline("Digite outro número: ");
 
     //Exibir os números em ordem crescente e decrescente.
     //Utilizado a estrutura de condição encadeada.
@@ -31,4 +31,5 @@ Descritivo: Escreva um programa que leia dois numeros reais e os exiba primeiro 
     }else if($n1 = $n2){ //CONDIÇÃO QUANDO N1 FOR IGUAL A N2 E VICE-VERSA.
         echo "Você digitou dois números iguais, sendo ele: ", $n1;
     }
+//PROGRAMA LÊ 2 NUMEROS REAIS E EXIBE ELES EM ORDEM CRESCENTE E DECRESCENTE.
 ?>
