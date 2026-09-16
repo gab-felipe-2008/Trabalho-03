@@ -13,7 +13,7 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia um numero inteiro e informe se ele é estritamente maior que zero.
 *******************************************************************************/
-$numInt = readline("Informe um número inteiro: ");//Usuário informa um n° inteiro.
+$numInt = (int) readline("Informe um número inteiro: ");//Usuário informa um n° inteiro.
 
 //Estrutura de condição para verificar se o n° é ou não maior que zero(0).
 if ($numInt > 0){
