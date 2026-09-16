@@ -13,4 +13,11 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia dois numeros inteiros, calcule a soma deles e exiba o resultado precedido pela palavra 'Soma: '.
 *******************************************************************************/
+$numero1 = (int) readline("Digite o primeiro número: ");
+$numero2 = (int) readline("Digite o segundo número: ");
 
+$soma = $numero1 + $numero2;
+
+echo "Soma: $soma";
+
+?>
