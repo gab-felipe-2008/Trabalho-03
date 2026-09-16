@@ -11,6 +11,16 @@ Componentes:
               260081732 - Alan Cristian dos Santos Costa
               260103602 - Victor Asaf Antunes dos Santos
 Data: 19 de Setembro de 2026
-Descritivo: Escreva um programa que leia um numero inteiro e exiba se ele � divisivel por 3 (multiplo de 3).
+Descritivo: Escreva um programa que leia um numero inteiro e exiba se ele é divisivel por 3 (multiplo de 3).
 *******************************************************************************/
+ //Lê o n° inteiro
+    $numInt = readline("Digite um número inteiro: ");
+    
+    //verificar se o n° é múltiplo de 3
+    if ($numInt % 3 === 0){
+        echo "O número ", $numInt, " é divisível por 3.";
+    }else{
+        echo "O número ", $numInt, " não é divisível por 3.";
+    }
+?>
 
