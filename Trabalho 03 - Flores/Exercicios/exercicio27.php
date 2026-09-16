@@ -11,6 +11,15 @@ Componentes:
               260081732 - Alan Cristian dos Santos Costa
               260103602 - Victor Asaf Antunes dos Santos
 Data: 19 de Setembro de 2026
-Descritivo: Escreva um programa que leia um numero inteiro e informe se ele � estritamente maior que zero.
+Descritivo: Escreva um programa que leia um numero inteiro e informe se ele é estritamente maior que zero.
 *******************************************************************************/
+$numInt = readline("Informe um número inteiro: ");//Usuário informa um n° inteiro.
 
+//Estrutura de condição para verificar se o n° é ou não maior que zero(0).
+if ($numInt > 0){
+    echo "Esse número é maior que zero(0).";
+}else{
+    echo "Esse número não é maior que zero(0).";
+}
+
+?>
