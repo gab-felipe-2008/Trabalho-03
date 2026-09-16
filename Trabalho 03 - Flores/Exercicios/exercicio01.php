@@ -13,4 +13,6 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que exiba na tela do computador a mensagem: 'Aprendendo PHP!!!'.
 *******************************************************************************/
+echo "Aprendendo PHP!!!";
 
+?>
