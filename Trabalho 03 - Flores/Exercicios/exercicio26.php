@@ -23,4 +23,6 @@ echo "O valor do primeiro número digitado é ", $n1," e o valor do segundo núm
 
 //Mostra no terminal o valor invertido das variáveis.
 echo "Agora, após a inversão dos valores, o primeiro número digitado passou a valer ", $n1 , " e o segundo número digitado passou a valer ", $n2,".";
+
+//CÓDIGO LÊ 2 VARIÁVEIS DE VALOR INTEIRO E INVERTE OS VALORES UMA PELA OUTRA.
 ?>
