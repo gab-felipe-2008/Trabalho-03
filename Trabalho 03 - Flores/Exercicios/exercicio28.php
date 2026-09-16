@@ -24,4 +24,6 @@ if ($numRea > 20){
 }else{
     echo "O número informado é menor que 20, não será possível calcular sua metade.";
 }
+
+//PROGROMA LÊ UM NUMERO REAL E CASO ELE FOR MAIOR QUE 20, VAI SER EXIBIDO A METADE DO N° INFORMADO.
 ?>
