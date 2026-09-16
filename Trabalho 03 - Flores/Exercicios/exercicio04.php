@@ -13,4 +13,8 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia um numero inteiro via teclado utilizando a CLI e exiba a mensagem: 'Numero lido = [valor digitado]'.
 *******************************************************************************/
+$numero = (int) readline("Digite um número inteiro: ");
 
+echo "Número lido = $numero";
+
+?>
