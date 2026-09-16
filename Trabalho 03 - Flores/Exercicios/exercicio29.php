@@ -13,4 +13,15 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia um numero real e, se for positivo, exiba seu inverso (1/x); caso contrario, exiba o seu valor absoluto (numero multiplicado por -1).
 *******************************************************************************/
+    //leitura n° real
+    $numRea = readline("Digite um número qualquer: ");
 
+    //Estrutura de condição para exibir o inverso e valor absoluto do n°
+    if ($numRea > 0 and $numRea != 0){
+        $inverso = 1 / $numRea; //calculo do valor inverso.
+        echo "O inverso de ", $numRea, " é ", $inverso;
+    }else {
+        $vlrAbs = $numRea * -1; //cálculo do valor absoluto
+        echo "O valor absoluto de ", $numRea, " é ", $vlrAbs;
+    }
+?>
