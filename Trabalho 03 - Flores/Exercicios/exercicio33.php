@@ -13,4 +13,15 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia dois numeros reais e exiba o maior deles.
 *******************************************************************************/
+    //Leitura dos 2 números 
+    $n1 = readline("Digite um número: ");
+    $n2 = readline("Digite outro número: ");
+
+    //estrutura de condição para exibir o maior número.
+    if ($n1 > $n2){
+        echo "O maior número que você digitou foi o ", $n1, ".";
+    }else if($n2 > $n1){
+        echo "O maior número que você digitou foi o ", $n2, ".";
+    }
+?>
 
