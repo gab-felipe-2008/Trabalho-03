@@ -13,4 +13,8 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que calcule e exiba o produto entre os numeros 28 e 43.
 *******************************************************************************/
+$resultado = 28 * 43;
 
+echo "Resultado = $resultado";
+
+?>
