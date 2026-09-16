@@ -13,4 +13,12 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: Escreva um programa que leia um nome, um endereco e um telefone via teclado e imprima-os na tela organizados em linhas separadas.
 *******************************************************************************/
+$nome = readline("Digite seu nome: ");
+$endereco = readline("Digite seu endereço: ");
+$telefone = readline("Digite seu telefone: ");
 
+echo "Nome: $nome\n";
+echo "Endereço: $endereco\n";
+echo "Telefone: $telefone";
+
+?>
